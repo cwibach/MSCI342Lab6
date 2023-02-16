@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-} from 'react-router-dom';
+import RestaurantScreen from './components/RestaurantScreen';
 
 export default function App() {
-  return <div>Hello, world.</div>;
-  }
+return (
+  <div>
+    <RestaurantScreen />
+  </div>
+  );
+}
