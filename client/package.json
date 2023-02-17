@@ -12,6 +12,7 @@
     "@material-ui/styles": "^4.0.0",
     "@material/ripple": "^4.0.0",
     "@mui/material": "^5.11.9",
+    "@testing-library/jest-dom": "^5.14.1",
     "install": "^0.12.2",
     "mathjs": "^5.10.3",
     "node-fetch": "^2.6.1",

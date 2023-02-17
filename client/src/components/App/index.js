@@ -1,9 +1,21 @@
-import RestaurantScreen from './components/RestaurantScreen';
+import RestaurantScreen from '../RestaurantScreen/index';
+import React, { Component } from 'react';
 
-export default function App() {
-return (
-  <div>
-    <RestaurantScreen />
-  </div>
+
+const App = () => {
+  return(
+    <div>
+      <RestaurantScreen />
+    </div>
   );
-}
+ }
+// export default function App() {
+// return (
+//   <div>
+//     hello
+//     <RestaurantScreen />
+//   </div>
+//   );
+// }
+
+export default App;
