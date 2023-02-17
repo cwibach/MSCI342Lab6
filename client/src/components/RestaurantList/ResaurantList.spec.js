@@ -1,14 +1,19 @@
 import { render, screen } from '@testing-library/react';
-import RestaurantList from './RestaurantList';
+import RestaurantList from './index';
+import React from 'react';
+import '@testing-library/jest-dom';
 
 describe('RestaurantList', () => {
     const restaurants = [
         { id: 1, name: 'Sushi Place' },
         { id: 2, name: 'Pizza Place' },
     ];
+
     let loadRestaurants;
+
     function renderComponent() {
         loadRestaurants = jest.fn().mockName('loadRestaurants');
+
         render(
             <RestaurantList
                 loadRestaurants={loadRestaurants}
