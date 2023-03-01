@@ -1,11 +1,12 @@
 import RestaurantScreen from '../RestaurantScreen/index';
+import Counter from '../../features/counter/Counter.js';
 import React, { Component } from 'react';
 
 
 const App = () => {
   return(
     <div>
-      <RestaurantScreen />
+      <Counter />
     </div>
   );
  }
