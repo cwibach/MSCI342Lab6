@@ -1,12 +1,12 @@
 import RestaurantScreen from '../RestaurantScreen/index';
-import Counter from '../../features/counter/Counter.js';
+import IncrementByAmount from '../../features/counter/IncrementByAmount.js';
 import React, { Component } from 'react';
 
 
 const App = () => {
   return(
     <div>
-      <Counter />
+      <IncrementByAmount />
     </div>
   );
  }
